@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import 'db/connection';
 
 export const Map = mongoose.model(
   'Map',

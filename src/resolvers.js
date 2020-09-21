@@ -1,4 +1,4 @@
-import { Map } from './models/Map';
+import { Map } from './db/models/Map';
 
 export const resolvers = {
   Query: {
