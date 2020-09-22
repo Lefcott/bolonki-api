@@ -43,6 +43,6 @@ describe('Getting map items', () => {
     `;
 
     const response = await rp({ method: 'POST', uri: API, body: { query: print(query) }, json: true });
-    expect(response).toMatchSnapshot();
+    expect(response).toMatchSnapshot({});
   });
 });
