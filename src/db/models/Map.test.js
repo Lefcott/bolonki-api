@@ -8,11 +8,12 @@ import { exec, spawn } from 'child_process';
 import projectDir from 'utils/projectDir';
 import { gql } from 'apollo-server-express';
 import { print } from 'graphql';
+import env from 'env';
 
 const pExec = util.promisify(exec);
 
 const API = 'http://localhost:4000/graphql';
-const CMD_SEED_DATABASE = `${projectDir}/scripts/seed.sh Maps`;
+const CMD_SEED_DATABASE = `${projectDir}/scripts/seed.sh "${env.MONGODB_URL}" Maps`;
 let api;
 
 describe('Getting map items', () => {
