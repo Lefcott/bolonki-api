@@ -1,2 +1,0 @@
-{"_id":{"$oid":"5f67ee6f071176d78c1ed182"},"Name":"Basic Map","Polygons":[{"Sides":4.0,"AdjacentPolygons":[1.0,-1.0,-1.0,-1.0]},{"Sides":4.0,"AdjacentPolygons":[-1.0,-1.0,-1.0,1.0]}]}
-{"_id":{"$oid":"5f68dc86071176d78c47b460"},"Name":"Basic Map 2","Polygons":[{"Sides":4.0,"AdjacentPolygons":[1.0,-1.0,-1.0,-1.0]},{"Sides":4.0,"AdjacentPolygons":[-1.0,-1.0,-1.0,1.0]}]}
